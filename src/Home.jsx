@@ -1,8 +1,12 @@
 import React from "react";
+import ChatbotWidget from './ChatbotWidget';
 
 function Home() {
     return(
-        <h2>Home Component</h2>
+        <div>
+            <h2>Home Component</h2>
+            <ChatbotWidget />
+        </div>
     )
 }
 
