@@ -37,7 +37,7 @@ function Signup() {
 
     return (
         <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
-            <div className="bg-white p-3 rounded w-25">
+            <div className="bg-white p-3 rounded" style={{ width: '90%', maxWidth: '400px' }}>
                 <h2>Register</h2>
                 <form onSubmit={handleSubmit}>
                     {/* 5. Corrected HTML attributes below */}
