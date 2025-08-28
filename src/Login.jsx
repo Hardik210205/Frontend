@@ -11,7 +11,7 @@ function Login() {
     
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post(`${import.meta.env.VITE_API_URL}/register`, {email, password })
+        axios.post(`${import.meta.env.VITE_API_URL}/login`, {email, password })
         .then(result => {
             console.log(result)
             if(result.data === "Success") {
